@@ -50,6 +50,7 @@ html, body {
 	position: absolute;
 	left: 40%; top: 0; right: 0; bottom: 0;
 	border: 5px solid #444;
+	border-left-width: 10px;
 	overflow: hidden;
 }
 
