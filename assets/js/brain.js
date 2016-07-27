@@ -35,7 +35,7 @@
 	var render = function() {
 		var source = prepareSource();
 
-		var iframe = document.querySelector('#output iframe'),
+		var iframe = document.querySelector('.pg-output iframe'),
 				iframe_doc = iframe.contentDocument;
 
 		iframe_doc.open();
@@ -78,4 +78,5 @@
 	js_editor.on("change",render);
 
 	render();
+
 }());
