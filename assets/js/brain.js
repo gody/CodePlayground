@@ -1,16 +1,33 @@
 (function() {
 
+	// Modules base on clases
+	var htmlCodeBox = function(content , id){
+
+	};
+
+	var cssCodeBox = function(content , id){
+
+	};
+
+	var jsCodeBox = function(content , id){
+
+	};
+
+	var output = function(id){
+
+	};
+
 	// Base template
 	var base_tpl =
-			"<!doctype html>\n" +
-			"<html>\n\t" +
-      "<head>\n\t\t" +
-      "<meta charset=\"utf-8\">\n\t\t" +
-      "<title>Test</title>\n\n\t\t\n\t" +
-      "</head>\n\t" +
-      "<body>\n\t\n\t" +
-      "</body>\n" +
-      "</html>";
+		"<!doctype html>\n" +
+		"<html>\n\t" +
+		"<head>\n\t\t" +
+		"<meta charset=\"utf-8\">\n\t\t" +
+		"<title>Test</title>\n\n\t\t\n\t" +
+		"</head>\n\t" +
+		"<body>\n\t\n\t" +
+		"</body>\n" +
+		"</html>";
 
 	var prepareSource = function() {
 		var html = html_editor.getValue(),
